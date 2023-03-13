@@ -69,7 +69,7 @@ export default [
     },
   },
   {
-    url: '/basic-api/getUserInfo',
+    url: '/getUserInfo',
     method: 'get',
     response: (request: requestParams) => {
       const token = getRequestToken(request);
