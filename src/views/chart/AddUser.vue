@@ -8,7 +8,6 @@
   </div>
 </template>
 
-
 <script lang="ts" setup>
   import { insertUserApi } from '/@/api/chat';
   import { PageWrapper } from '/@/components/Page';
@@ -141,8 +140,8 @@
 
   const submit = async function (values: Recordable) {
     const res = await insertUserApi(values);
-    
-    console.log(res)
+
+    console.log(res);
   };
 </script>
 
